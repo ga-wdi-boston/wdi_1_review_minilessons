@@ -13,7 +13,7 @@ end
 
 class Dog < Animal
 
-  # initialize takes the arguments and turns them into instance variables
+  # initialize takes the arguments from .new and turns them into instance variables
   def initialize(name, age)
     @name = name
     @age = age
